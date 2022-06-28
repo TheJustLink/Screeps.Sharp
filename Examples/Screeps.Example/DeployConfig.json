@@ -1,0 +1,18 @@
+{
+  "Token": "YourScreepsToken",
+  "Deploys": [
+    {
+      // "Protocol": "https",
+      // "Host": "screeps.com",
+
+      // Server types: persistent, ptr, season
+      // "ServerType": "persistent",
+
+      "Branch": "test",
+      "Modules": {
+        "test": "main.js",
+        "main": "bin/bridge/core.min.js"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Screeps.Deploy": {
+      "commandName": "Project",
+      "commandLineArgs": "DeployConfig.json",
+      "workingDirectory": "$(SolutionDir)/Examples/Screeps.Example"
+    }
+  }
+}
